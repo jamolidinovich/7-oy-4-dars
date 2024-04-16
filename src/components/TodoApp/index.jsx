@@ -27,7 +27,6 @@ function TodoApp() {
 
   return (
     <div className="w-[432px] mx-auto mt-48">
-      <h1 className="text-white">TodoApp</h1>
       <Form />
       <TodoTitle
         title="Tasks to do"
