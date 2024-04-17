@@ -1,7 +1,8 @@
 import { combineReducers, createStore } from "redux";
-import { todoReducer } from "./TodoReducer";
-import { composeWithDevTools } from "@redux-devtools/extension";
+import { todosReducer } from "./todosReducer";
+
 const rootReducer = combineReducers({
-  todos: todoReducer,
-});
-export const store = createStore(rootReducer, composeWithDevTools());
+    todos: todosReducer 
+})
+
+export const store = createStore(rootReducer)
